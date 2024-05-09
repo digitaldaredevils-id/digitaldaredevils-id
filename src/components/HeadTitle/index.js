@@ -4,8 +4,10 @@ export const HeadTitle = ({ title, description }) => {
   return (
     <>
       <Head>
-        <title>Daredevils | {title}</title>
+        <title>Digital Daredevils | {title}</title>
         <meta content={description} />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="icon" href="/favicon.ico" />
       </Head>
     </>
   );

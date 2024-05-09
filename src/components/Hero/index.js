@@ -1,4 +1,12 @@
-import { Button, Flex, Heading, Image, Stack, Text, useBreakpointValue } from "@chakra-ui/react";
+import {
+  Button,
+  Flex,
+  Heading,
+  Image,
+  Stack,
+  Text,
+  useBreakpointValue,
+} from "@chakra-ui/react";
 
 export default function Hero() {
   return (
@@ -28,7 +36,8 @@ export default function Hero() {
             </Text>{" "}
           </Heading>
           <Text fontSize={{ base: "md", lg: "lg" }} color={"gray.500"}>
-            Tantang Batas Digital Bersama Digital Daredevils: Kreativitas Tanpa Batas, Solusi Tanpa Kompromi!
+            Tantang Batas Digital Bersama Digital Daredevils: Kreativitas Tanpa
+            Batas, Solusi Tanpa Kompromi!
           </Text>
           <Stack direction={{ base: "column", md: "row" }} spacing={4}>
             <Button

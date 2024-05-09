@@ -1,10 +1,11 @@
 import { HeadTitle } from "@/components/HeadTitle";
+import Hero from "@/components/Hero";
 import { NavbarComponent } from "@/components/Navbar/NavbarList";
-import { Box } from "@chakra-ui/react";
+import { Box, Container } from "@chakra-ui/react";
 
 export default function Home() {
   return (
-    <>
+    <Box bgColor={"gray.100"}>
       <HeadTitle
         title={"Unleashing the Digital Revolution"}
         description={
@@ -12,9 +13,10 @@ export default function Home() {
         }
       />
 
-      <Box>
+      <Container maxW={"1024px"}>
         <NavbarComponent />
-      </Box>
-    </>
+        <Hero />
+      </Container>
+    </Box>
   );
 }

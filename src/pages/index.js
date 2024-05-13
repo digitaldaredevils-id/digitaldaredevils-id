@@ -1,6 +1,7 @@
 import { HeadTitle } from "@/components/HeadTitle";
 import Hero from "@/components/Hero";
 import { NavbarComponent } from "@/components/Navbar/NavbarList";
+import { RecentWorksViews } from "@/views";
 import { Box, Container } from "@chakra-ui/react";
 
 export default function Home() {
@@ -16,6 +17,8 @@ export default function Home() {
       <Container maxW={"1024px"}>
         <NavbarComponent />
         <Hero />
+
+        <RecentWorksViews />
       </Container>
     </Box>
   );
